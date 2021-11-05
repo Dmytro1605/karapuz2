@@ -1,0 +1,161 @@
+.header a, a:hover { /* ссылки */
+    color: #f0ad4e; /* Цвет шрифта */
+    text-decoration: none; /* Убрать подчеркивания */
+}
+.header h1 { /* KARAPUZ */
+    letter-spacing: 15px; /* Межбуквенный интервал */
+    font-size: 400%; /* Размер шрифра */
+    font-family: "Ikaros Sans Regular", serif; /* Названия шрифта */
+}
+.header p { /* Чужих детей не бывает. */
+    color: white !important; /* Цвет шрифта */
+    font-size: 90%; /* Размер шрифра */
+    letter-spacing: 3px; /* Межбуквенный интервал */
+    margin: -14px 0 10px; /* Интервал надписи чужих детей не бывает */
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover { /* Цвет букв и квадратиков выделеного меню */
+    color: white; /* Цвет букв выделеного меню */
+    background-color: #0073ff; /* Цвет квадратиков выделенного меню */
+}
+.nav-pills>li>a { /* Буквы не выделеного меню */
+    color: white; /* Цвет буков не выделеного меню */
+    text-decoration: none; /* Убрать подчеркивания */
+    /* background-color: #003e90 */
+}
+.nav-pills>li>a:hover { /* Квадратики меню */
+    background-color: #0073ff; /* Цвет квадратиков меню которые не выбраны */
+}
+.navbar-inverse {
+    background-color: #000c61; /* Цвет */
+    border-radius: 0px; /* Скругления углов */
+    padding: 1%; /* Отступы меню */
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+.wrapper { /* Блок для контента */
+    min-height: 100%; /* Минимальная ширина 100%, чтобы прижать футер к низу */
+}
+html, body {
+    height: 100%; /* Ширина 100%, чтобы прижать футер к низу */
+}
+.img_block {
+    text-align: center; /* Текст под фото по центру */
+
+}
+.img_block img {
+    margin-bottom: 5%; /* Верхний внешний отступ */
+    border-radius: 5px; /* Скругленя углов фото */
+    border: solid 5px navy; /* Цвет контура */
+    width: 100%;
+}
+.img_label {
+    padding: 2%; /* внутрений отступ */
+    margin-bottom: 4%; /* Верхний внешний отступ */
+}
+.margin-8 { /* Отступ между блоками */
+    margin-top: 8%;
+}
+.btn-warning { /* Кнопка */
+    color: #fff; /* Цвет букв */;
+    background-color: #f0ad4e; /* Цвет заливки кнопки */
+    border-color: navy; /* Цвет обводки кнопки */
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: 12px 16px;
+    font-size: 15px;
+    line-height: 1.3333333;
+}
+.panel { /* Панель поиск */
+    border: none; /* убрал обводку */
+}
+.panel-body {
+    background-color: white; /* цвет панели под надписью и блоком поиск */
+}
+.panel-info>.panel-heading {
+    background-color: #f0ad4e; /* цвет вона вокруг букв */
+    color: white; /* цвет букв */
+    border-color: transparent;
+}.sidebar-header {
+    font-size: 120%; /* размер букв */
+    letter-spacing: 2px; /* Интервал между буквами */
+ }
+ .form-control {
+     font-size: 14px;
+ }
+.input-lg {
+    font-size: 14px;
+}
+.form-control {
+    border-radius: 0px;
+}
+.badge {
+    background-color: #000000;
+}
+footer {
+    background-color: #000c61; /* Цвет футер */
+    height: 40px; /* Висота слова футер */
+}
+footer a {
+    color: #747474; /* Цвет ссылки без навидения */
+    letter-spacing: 2px; /* Между буквенное растояния */
+    margin: 11px 0 10px; /* Отступы */
+    border-color: #747474; /* Цвет обводки */
+}
+footer a:hover {
+    color: white; /* Цвет ссылки когда на нее навести мышку */
+}
+footer p {
+    margin: 10px 0 10px; /* отступы */
+}
+.list-group a {
+   color: #0f0f0f;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+@media (max-width: 767px) { /* Настройки для маленьких экранов */
+    .nav-pills>li { /* Обращения к настройкам маню */
+        float: none; /* Меняем из горизонтального на вертикальный список меню */
+    }
+    .nav-pills { /* Обращения к настройкам маню */
+        text-align: center; /* Выравниваем меню по центру */
+    }
+    .header h1 { /* Надпись KARAPUZ */
+        letter-spacing: 5px; /* Межбуквенный интервал */
+        font-size: 280%; /* Размер шрифра */
+        text-align: center; /* Выравниваем меню по центру */
+    }
+    .header p { /* Надпись снизу логотипа */
+        letter-spacing: 1px; /* Межбуквенный интервал */
+        font-size: 100%; /* Размер шрифра */
+        text-align: center; /* Выравниваем меню по центру */
+    }
+    .navbar-inverse .navbar-toggle { /* Цвет открывающего меню в положения закрыто */
+        border-color: #003e90; /* Цвет контура */
+        background-color: #003e90; /* Цвет фона */
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover { /* Цвет открывающего меню в положения открыто */
+        background-color: #0073ff; /* Цвет фона */
+        border-color: #0073ff; /* Цвет контура */
+    }
+    a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: navy;
+    border-color: navy;
+}
+.info-block {
+    font-size: 120%;
+}
+.info-block .badge {
+    font-size: 80%;
+}
